@@ -4,7 +4,7 @@ package com.projetos.catgallery.presenter;
 
 import android.util.Log;
 
-import com.projetos.catgallery.Service.RetrofitService;
+import com.projetos.catgallery.service.RetrofitService;
 import com.projetos.catgallery.model.Cat;
 import com.projetos.catgallery.model.response.GalleryResponse;
 import com.projetos.catgallery.view.MainView;

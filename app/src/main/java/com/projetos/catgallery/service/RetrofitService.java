@@ -1,6 +1,5 @@
-package com.projetos.catgallery.Service;
+package com.projetos.catgallery.service;
 
-import com.projetos.catgallery.BuildConfig;
 import com.projetos.catgallery.api.GalleryApi;
 
 import retrofit2.Retrofit;
