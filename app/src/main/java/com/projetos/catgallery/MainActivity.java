@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
         recyclerView.findViewById(R.id.recyclerview);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 4));
+        recyclerView.isNestedScrollingEnabled();
         galleryAdapter = new GalleryAdapter(getApplicationContext(), catList);
         recyclerView.setAdapter(galleryAdapter);
 
